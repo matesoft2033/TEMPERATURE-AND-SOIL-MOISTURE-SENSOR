@@ -64,7 +64,7 @@ void loop()
   Serial.println("%");
   delay(TIME);
   if (humidity <= RANGE1) {
-  	digitalWrite(BLUE1, HIGH);
+    digitalWrite(BLUE1, HIGH);
     digitalWrite(BLUE2, LOW);
     digitalWrite(BLUE3, LOW);
     digitalWrite(BLUE4, LOW);
