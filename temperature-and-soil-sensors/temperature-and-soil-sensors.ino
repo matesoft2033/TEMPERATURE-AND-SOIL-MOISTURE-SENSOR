@@ -72,9 +72,9 @@ void loop()
   }
 
   if (humidity > RANGE2 && humidity <= RANGE3) {
-  	digitalWrite(BLUE1, HIGH);
-  	digitalWrite(BLUE2, HIGH);
-  	digitalWrite(BLUE3, HIGH);
+    digitalWrite(BLUE1, HIGH);
+    digitalWrite(BLUE2, HIGH);
+    digitalWrite(BLUE3, HIGH);
     digitalWrite(BLUE4, LOW);
     digitalWrite(BLUE5, LOW);
   }
