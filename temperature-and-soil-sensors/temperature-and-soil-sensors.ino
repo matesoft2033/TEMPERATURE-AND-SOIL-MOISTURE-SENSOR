@@ -103,36 +103,36 @@ void loop()
   Serial.println("C");
   delay(TIME);
   if (temp <= RANGE1) {
-  	digitalWrite(RED1, HIGH);
+    digitalWrite(RED1, HIGH);
     digitalWrite(RED2, LOW);
     digitalWrite(RED3, LOW);
     digitalWrite(RED4, LOW);
     digitalWrite(RED5, LOW);
   }
   if (temp > RANGE1 && humidity <= RANGE2) {
-  	digitalWrite(RED1, HIGH);
-  	digitalWrite(RED2, HIGH);
+    digitalWrite(RED1, HIGH);
+    digitalWrite(RED2, HIGH);
     digitalWrite(RED3, LOW);
     digitalWrite(RED4, LOW);
     digitalWrite(RED5, LOW);
   }
   if (temp > RANGE2 && humidity <= RANGE3) {
-  	digitalWrite(RED1, HIGH);
-  	digitalWrite(RED2, HIGH);
+    digitalWrite(RED1, HIGH);
+    digitalWrite(RED2, HIGH);
     digitalWrite(RED3, HIGH);
     digitalWrite(RED4, LOW);
     digitalWrite(RED5, LOW);
   }
   if (temp > RANGE3 && humidity <= RANGE4) {
-  	digitalWrite(RED1, HIGH);
-  	digitalWrite(RED2, HIGH);
+    digitalWrite(RED1, HIGH);
+    digitalWrite(RED2, HIGH);
     digitalWrite(RED3, HIGH);
     digitalWrite(RED4, HIGH);
     digitalWrite(RED5, LOW);
   }
   if (temp > RANGE4 && humidity <= RANGE5) {
-  	digitalWrite(RED1, HIGH);
-  	digitalWrite(RED2, HIGH);
+    digitalWrite(RED1, HIGH);
+    digitalWrite(RED2, HIGH);
     digitalWrite(RED3, HIGH);
     digitalWrite(RED4, HIGH);
     digitalWrite(RED5, HIGH);
