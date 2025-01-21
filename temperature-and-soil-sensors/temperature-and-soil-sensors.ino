@@ -86,11 +86,11 @@ void loop()
     digitalWrite(BLUE5, LOW);
   }
   if (humidity > RANGE4 && humidity <= RANGE5) {
-  	digitalWrite(BLUE1, HIGH);
-  	digitalWrite(BLUE2, HIGH);
-  	digitalWrite(BLUE3, HIGH);
-  	digitalWrite(BLUE4, HIGH);
-  	digitalWrite(BLUE5, HIGH);
+    digitalWrite(BLUE1, HIGH);
+    digitalWrite(BLUE2, HIGH);
+    digitalWrite(BLUE3, HIGH);
+    digitalWrite(BLUE4, HIGH);
+    digitalWrite(BLUE5, HIGH);
   }
   
   // Process Of Checking Temperature
